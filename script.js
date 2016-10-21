@@ -1,4 +1,6 @@
-addListItem("listofproducts", {"name": "ham sanwhich", "picture":  })
+addListItem("listofproducts", {
+  "name": "ham sanwhich",
+  "picture": "http://www.skibbereeneagle.ie/web/wpcontent/uploads/2015/08/airkhamburger.jpg"  })
 
 onNewListItem("listofproducts", function(product) {
   var nameHeader = $("<h1 class='product-name'>" + product.name + "</h1>")
