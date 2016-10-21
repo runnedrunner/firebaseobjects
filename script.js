@@ -1,6 +1,7 @@
 addListItem("listofproducts", {
-  "name": "ham sanwhich",
-  "picture": "http://www.skibbereeneagle.ie/web/wpcontent/uploads/2015/08/airkhamburger.jpg"  })
+  "name": "hamburger",
+  "picture": "http://www.skibbereeneagle.ie/web/wpcontent/uploads/2015/08/airkhamburger.jpg",
+  "price": })
 
 onNewListItem("listofproducts", function(product) {
   var nameHeader = $("<h1 class='product-name'>" + product.name + "</h1>")
