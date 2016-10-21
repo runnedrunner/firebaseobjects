@@ -1,6 +1,6 @@
-//addListItem("product-list", {name: "cool product"})
+addListItem("listofproducts", {name: "cool product"})
 
-onNewListItem("product-list", function(product) {
+onNewListItem("listofproducts", function(product) {
   var nameHeader = $("<h1 class='product-name'>" + product.name + "</h1>")
   var image = $("<img class='product-image'>").attr("src", product.picture)  
   var price = $("<h1 class='product-price'> Price: $" + product.price + "</h1>")

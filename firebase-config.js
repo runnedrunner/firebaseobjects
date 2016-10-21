@@ -6,7 +6,7 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-var store = firebase.database().ref("goaway")
+var store = firebase.database().ref("challenge-3")
 
 function storeValue(name, value) {	
   var obj = {}
